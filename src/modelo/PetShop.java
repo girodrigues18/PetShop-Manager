@@ -1,11 +1,13 @@
-package PetShop;
+package modelo;
 
-import animal.Animal;
-import servico.Servico;
+import interfaces.Calculavel;
+import interfaces.Relatorio;
+import modelo.animal.Animal;
+import modelo.servico.Servico;
 
 import java.util.ArrayList;
 
-public class PetShop implements Calculavel, PetShop.Calculavel.Relatorio {
+public class PetShop implements Calculavel, Relatorio {
     private ArrayList<Animal> animais;
     private ArrayList<Servico> servicos;
 

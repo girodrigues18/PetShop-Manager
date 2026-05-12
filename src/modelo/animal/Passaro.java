@@ -1,6 +1,4 @@
-package passaro;
-
-import animal.Animal;
+package modelo.animal;
 
 public class Passaro extends Animal {
     public Passaro(String nome, double peso) {

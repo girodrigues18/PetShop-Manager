@@ -1,4 +1,4 @@
-package animal;
+package modelo.animal;
 
 public abstract class Animal {
     protected String nome;

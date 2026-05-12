@@ -1,7 +1,6 @@
-package consulta;
+package modelo.servico;
 
-import animal.Animal;
-import servico.Servico;
+import modelo.animal.Animal;
 
 public class Consulta extends Servico {
     public Consulta(String descricao, int duracaoMin) {

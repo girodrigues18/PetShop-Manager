@@ -1,6 +1,4 @@
-package cachorro;
-
-import animal.Animal;
+package modelo.animal;
 
 public class Cachorro extends Animal {
 

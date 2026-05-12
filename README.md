@@ -17,11 +17,11 @@ O sistema foi desenvolvido seguindo os seguintes requisitos obrigatórios (RFs):
 - Coleções Dinâmicas (RF05): Uso de ArrayList<Animal> e ArrayList<Servico> para gerenciamento de dados e iteração polimórfica.
 
 ## Regras de Negócio e Cálculos
-O sistema utiliza uma lógica de precificação dinâmica fundamentada em herança e polimorfismo. O custo final de um serviço é composto pelo **Preço Base** do animal somado à **Taxa Específica** do serviço prestado.
+O sistema utiliza uma lógica de precificação dinâmica fundamentada em herança e polimorfismo. O custo final de um serviço é composto pelo **Preço Base** do modelo.animal somado à **Taxa Específica** do serviço prestado.
 
 ***1. Preço Base por Categoria***
 
-O valor base é definido pela espécie e, em alguns casos, pelo porte ou pelagem do animal:
+O valor base é definido pela espécie e, em alguns casos, pelo porte ou pelagem do modelo.animal:
 
 | Espécie | Critério de Diferenciação | Preço Base |
 | :--- | :--- | :--- |

@@ -1,7 +1,6 @@
-package banho;
+package modelo.servico;
 
-import animal.Animal;
-import servico.Servico;
+import modelo.animal.Animal;
 
 public class Banho extends Servico {
 

@@ -1,6 +1,6 @@
-package servico;
+package modelo.servico;
 
-import animal.Animal;
+import modelo.animal.Animal;
 
 public abstract class Servico {
     protected String descricao;

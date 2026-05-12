@@ -1,6 +1,4 @@
-package gato;
-
-import animal.Animal;
+package modelo.animal;
 
 public class Gato extends Animal {
     private String tipoPelagem;
