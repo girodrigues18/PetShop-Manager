@@ -1,6 +1,7 @@
 # PetShop-Manager - Sistema de Gestão Orientado a Objetos
 ## Sobre o Projeto
 O Patinhas Felizes é um PetShop que atende cachorros, gatos e pássaros. O software foi construído seguindo rigorosos princípios de Programação Orientada a Objetos (POO) para garantir escalabilidade e manutenção eficiente.  
+
 ***Funcionalidades Principais***   
 - Cadastro de Animais: Registro de Cachorros, Gatos e Pássaros com validação de atributos como nome e peso.
 - Registro de Serviços: Seleção de animais cadastrados para a prestação de serviços de Banho ou Consulta.
