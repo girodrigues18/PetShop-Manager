@@ -10,36 +10,20 @@ import java.util.ArrayList;
 public class PetShop implements Calculavel, Relatorio {
     private ArrayList<Animal> animais;
     private ArrayList<Servico> servicos;
+    private ArrayList<Atendimento> atendimentos;
 
     public PetShop() {
         animais = new ArrayList<>();
         servicos = new ArrayList<>();
-    }
-
-    public void adicionarAnimal(Animal animal) {
-        animais.add(animal);
-    }
-
-    public void adicionarServico(Servico servico) {
-        servicos.add(servico);
-    }
-
-    public ArrayList<Animal> getAnimais() {
-        return animais;
-    }
-
-    public ArrayList<Servico> getServicos() {
-        return servicos;
+        atendimentos = new ArrayList<>();
     }
 
     @Override
     public double calcularTotal() {
         double total = 0;
 
-        for (Servico s : servicos) {
-            for (Animal a : animais) {
-                total += s.calcularCusto(a);
-            }
+        for (Atendimento a : atendimentos) {
+            total += a.getServico().calcularCusto(a.getAnimal());
         }
         return total;
     }

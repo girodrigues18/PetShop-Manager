@@ -7,7 +7,6 @@ public class Passaro extends Animal {
 
     @Override
     public double calcularPrecoBase() {
-        System.out.println("Preço base é fixo! O estabelecimento não oferece serviço de banho!");
         return 30.0;
     }
 }
